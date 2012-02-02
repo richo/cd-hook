@@ -12,7 +12,6 @@ augroup User chdir
     au!
 augroup end
 
-    " TODO Catch args and hand them down
 command -complete=dir -nargs=1 Cd call ChdirHook(<q-args>)
 function! ChdirHook(dir)
     exec "chdir " . a:dir
