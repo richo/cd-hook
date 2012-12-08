@@ -1,6 +1,6 @@
 " cd_hook.vim - A wrapper for those of us who wish stuff could happen when
 " they change directories
-" Maintainer:   Rich Healey <richo@psych0tik.net>
+" Maintainer:   Richo Healey <richo@psych0tik.net>
 " Version:      0.1
 
 if exists('g:loaded_cd_hook') || &cp
